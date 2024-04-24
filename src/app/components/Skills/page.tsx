@@ -1,3 +1,5 @@
+import Sidebar from "../Sidebar/page";
+
 export default function Skills() {
   return (
     <div id="Skills">
@@ -27,7 +29,6 @@ export default function Skills() {
           </div>
         </div>
         <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
-          
           <div id="Structuring" className="border">
             <img
               src="/html.png"
@@ -48,7 +49,8 @@ export default function Skills() {
             <img
               src="/css.png"
               className="aspect-video w-full rounded-md"
-              alt="" />
+              alt=""
+            />
             <div className="min-h-min p-3">
               <p className="mt-4 w-full text-xs font-semibold leading-tight text-gray-700">
                 #Design
