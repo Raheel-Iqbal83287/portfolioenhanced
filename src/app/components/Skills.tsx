@@ -30,7 +30,7 @@ export default function Skills() {
           
           <div id="Structuring" className="border">
             <img
-              src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1469&amp;q=80"
+              src="/html.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -46,7 +46,7 @@ export default function Skills() {
 
           <div id="DesignLayout" className="border">
             <img
-              src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"
+              src="/css.png"
               className="aspect-video w-full rounded-md"
               alt="" />
             <div className="min-h-min p-3">
@@ -61,7 +61,7 @@ export default function Skills() {
 
           <div id="DesignLayout" className="border">
             <img
-              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/tailwindcss.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -77,7 +77,7 @@ export default function Skills() {
 
           <div id="Programming" className="border">
             <img
-              src="https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/jscript.jpeg"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -92,7 +92,7 @@ export default function Skills() {
           </div>
           <div id="Programming" className="border">
             <img
-              src="https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/tscript.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -107,7 +107,7 @@ export default function Skills() {
           </div>
           <div id="UIUX" className="border">
             <img
-              src="https://images.unsplash.com/photo-1663616132598-e9a1ee3ad186?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/shadcnui.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -122,7 +122,7 @@ export default function Skills() {
           </div>
           <div id="UIUX" className="border">
             <img
-              src="https://images.unsplash.com/photo-1426260193283-c4daed7c2024?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1476&amp;q=80"
+              src="/devui.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -137,7 +137,7 @@ export default function Skills() {
           </div>
           <div id="Framework" className="border">
             <img
-              src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/react.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
@@ -152,7 +152,7 @@ export default function Skills() {
           </div>
           <div id="Framework" className="border">
             <img
-              src="https://plus.unsplash.com/premium_photo-1663012880499-47f1ca50459d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
+              src="/nextjs.png"
               className="aspect-video w-full rounded-md"
               alt=""
             />
