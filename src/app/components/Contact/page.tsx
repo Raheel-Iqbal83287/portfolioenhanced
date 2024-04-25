@@ -1,8 +1,11 @@
+import Sidebar from "../Sidebar/page"
+
 export default function Contact() {
   return (
     <div id="Contact">
       <div>
-        <header className="relative w-full border-b bg-white pb-4">
+        
+            <Sidebar/>
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2">
             <div className="lg:hidden">
               <svg
@@ -23,7 +26,7 @@ export default function Contact() {
               </svg>
             </div>
           </div>
-        </header>
+        
         <div className="mx-auto max-w-7xl px-4">
           <div className="mx-auto max-w-7xl py-12 md:py-24">
             <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">

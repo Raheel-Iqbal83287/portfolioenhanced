@@ -5,8 +5,8 @@ export default function Introduction() {
     <div id="Introduction">
       <div className="w-full">
         <div className="relative w-full bg-white">
-          <div className="flex-row mx-auto max-w-8xl px-2 lg:grid lg:grid-cols-8 lg:gap-x-8 lg:px-8">
             <Sidebar />
+          <div className="flex-row mx-auto max-w-8xl px-2 lg:grid lg:grid-cols-8 lg:gap-x-8 lg:px-8">
             <div className="lg:px-20 lg:py-5 xl:col-span-6">
               <div className="flex max-w-max items-center space-x-2 rounded-full bg-gray-100 p-1">
                 <div className="rounded-full bg-white">
@@ -26,9 +26,7 @@ export default function Introduction() {
                 intricacies of backend development, employing technologies such as Node.js to build robust server-side systems capable of
                 handling immense traffic loads with grace.
               </p>
-              <div className="">
-                <img className="" src="/photo.jpeg" alt="" />
-              </div>
+              
             </div>
           </div>
         </div>

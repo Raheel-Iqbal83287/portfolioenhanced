@@ -1,14 +1,20 @@
+import Link from "next/link";
+
 export default function Sidebar() {
   return (
-    <div id="Sidebar">
-      <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-black px-5 py-8">
+    <div>
+      <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-black px-5 py-8 float-left">
         <div className="mt-6 flex flex-1 flex-col justify-between">
           <nav className="-mx-3 space-y-6 ">
             <div className="space-y-3 ">
-              <a
+              <Link
                 className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
-                href="#"
-              >
+                href="/">
+                <span className="mx-2 text-sm font-medium">Home</span>
+              </Link>
+              <Link
+                className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                href="../components/Introduction">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -27,10 +33,10 @@ export default function Sidebar() {
                   <line x1="6" y1="20" x2="6" y2="16"></line>
                 </svg>
                 <span className="mx-2 text-sm font-medium">Introduction</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
-                href="#"
+                href="../components/About"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -49,14 +55,13 @@ export default function Sidebar() {
                   <path d="M4 6v12c0 1.1.9 2 2 2h14v-4"></path>
                   <path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"></path>
                 </svg>
-                <span className="mx-2 text-sm font-medium">About</span>
-              </a>
+                <span className="mx-2 text-sm font-medium">About Me</span>
+              </Link>
             </div>
             <div className="space-y-3 ">
-              <a
+              <Link
                 className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
-                href="#"
-              >
+                href="../components/Skills">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -76,10 +81,10 @@ export default function Sidebar() {
                   <path d="M10 6h8v4h-8V6Z"></path>
                 </svg>
                 <span className="mx-2 text-sm font-medium">Skills</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
-                href="#"
+                href="../components/Projects"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,11 +104,11 @@ export default function Sidebar() {
                   <path d="M2 8c0-2.2.7-4.3 2-6"></path>
                   <path d="M22 8a10 10 0 0 0-2-6"></path>
                 </svg>
-                <span className="mx-2 text-sm font-medium">Project</span>
-              </a>
-              <a
+                <span className="mx-2 text-sm font-medium">Projects</span>
+              </Link>
+              <Link
                 className="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
-                href="#"
+                href="../components/Contact"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +126,7 @@ export default function Sidebar() {
                   <path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
                 </svg>
                 <span className="mx-2 text-sm font-medium">Contact</span>
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
