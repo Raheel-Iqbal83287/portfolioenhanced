@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Dashboard() {
   return (
-    <div id="Dashboard" className="flex justify-center gap-3 rounded-xl">
+    <div id="Dashboard" className="flex justify-center gap-3 rounded-xl mt-10">
       <div className="relative h-[400px] w-[300px] ">
         <img
           src="/photo.jpeg"
